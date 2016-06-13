@@ -18,6 +18,8 @@ namespace LibraryManagementSystem
         {
             InitializeComponent();
 
+            // Here comes a test sentence from Max
+
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
