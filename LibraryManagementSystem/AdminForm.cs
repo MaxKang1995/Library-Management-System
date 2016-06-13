@@ -12,10 +12,10 @@ using MaterialSkin.Controls;
 
 namespace LibraryManagementSystem
 {
-    public partial class UserForm : MaterialForm
+    public partial class AdminForm : MaterialForm
     {
         private readonly MaterialSkinManager materialSkinManager;
-        public UserForm()
+        public AdminForm()
         {
             InitializeComponent();
 
